@@ -89,9 +89,9 @@ body{
 .imgSection{
     width: 290px;
     height: 280px;
-    box-shadow: 2px 2px 10px #0b090aa0;
-    filter: brightness(140%);
-    border-radius: 20px;
+    /* box-shadow: 2px 2px 10px #0b090aa0; */
+    /* filter: brightness(140%);S */
+    /* border-radius: 20px; */
 }
 #fundacion{
     position: relative;
@@ -112,11 +112,38 @@ body{
     margin-top: 25px;
     text-indent: 15px;
 }
-
 .pie{
     background-color: #A4161A;
     color: #D3D3D3;
     height: 100px;
     text-align: center;
     font-size: 20px;
+}
+.titu{
+    margin-top: 20px;
+    color: #A4161A;
+    text-shadow: 1px 1px 1px #A4161A;
+    font-family: 'Jost', sans-serif;
+    font-weight: 900;
+    text-align: center;
+    font-size: 40px;
+}
+.flex {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.prueba{
+    width: 250px;
+    height: 250px;
+}
+
+.flexbox{
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+}
+.text{
+    margin-right: 1320px;
 }
